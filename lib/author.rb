@@ -19,7 +19,7 @@ class Author
     @posts << p
   end
 
-  def post_count
-    self.posts.length
+  def self.post_count
+    Post.all.length
   end
 end
