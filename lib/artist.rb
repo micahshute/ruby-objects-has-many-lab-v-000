@@ -1,6 +1,6 @@
 require_relative 'song'
 
-class Artist 
+class Artist
   attr_accessor :name, :songs
 
   def initialize(name)
