@@ -4,7 +4,7 @@ class Post
   def self.all
     @@all
   end
-  
+
   attr_accessor :title, :author
 
   def initialize(title)
@@ -13,5 +13,5 @@ class Post
   end
 
   
-  
+
 end
