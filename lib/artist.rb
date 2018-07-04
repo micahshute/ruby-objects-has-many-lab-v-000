@@ -19,8 +19,8 @@ class Artist
     self.songs << s
   end
 
-  def song_count
-    self.songs.length
+  def self.song_count
+    Song.all
   end
 
 end
