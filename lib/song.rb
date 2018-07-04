@@ -1,6 +1,6 @@
 class Song
 
-  @@all
+  @@all = []
 
   def self.all
     @@all
@@ -12,5 +12,5 @@ class Song
     @name = name
     @@all << self
   end
-  
+
 end
