@@ -20,7 +20,3 @@ class Artist
   end
 
 end
-
-a = Artist.new("micah")
-a.add_song_by_name("Such great heights")
-puts a.songs
