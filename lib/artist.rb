@@ -17,4 +17,9 @@ class Artist
     s.artist = self
     self.song << s
   end
+
 end
+
+a = Artist.new("micah")
+a.add_song_by_name("Such great heights")
+puts a.songs
