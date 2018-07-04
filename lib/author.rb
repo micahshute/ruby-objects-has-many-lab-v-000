@@ -23,3 +23,7 @@ class Author
     self.posts.length
   end
 end
+
+a = Author.new("micah")
+a.add_song_by_name("stuff")
+puts a.post_count
