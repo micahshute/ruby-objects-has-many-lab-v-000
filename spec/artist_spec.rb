@@ -44,6 +44,6 @@ describe "Artist" do
         expect(Artist.song_count).to eq(2)
       end
     end
-    
+
   end
 end

@@ -23,7 +23,3 @@ class Author
     self.posts.length
   end
 end
-
-a = Author.new("micah")
-a.add_post_by_title("stuff")
-puts a.post_count
