@@ -1,4 +1,5 @@
 require_relative 'post'
+
 class Author
   attr_accessor :name, :posts
 
@@ -16,5 +17,9 @@ class Author
     p = Post.new(title)
     p.author = self
     @posts << p
+  end
+
+  def post_count
+    posts.length
   end
 end
