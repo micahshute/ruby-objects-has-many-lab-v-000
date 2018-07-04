@@ -25,5 +25,5 @@ class Author
 end
 
 a = Author.new("micah")
-a.add_song_by_name("stuff")
+a.add_post_by_title("stuff")
 puts a.post_count
